@@ -6,7 +6,7 @@ function App() {
   const ws = useRef();
 
   useEffect(() => {
-      ws.current = new WebSocket("ws://78.140.241.21:8300/ws/donations/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk5ODE5MTY4LCJqdGkiOiIxYzNlYzg5MDAyODM0NDVmOTk4MTgwMmIyODViZTk3ZiIsInVzZXJfaWQiOjF9.yVXnp1clGX9wTQuC0b6P1IrXULKa6uBte4Z6LJHYDt4"); 
+      ws.current = new WebSocket("ws://78.140.241.21:8300/ws/donations/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzAwMTYzMzc2LCJqdGkiOiI2ZTQ1YjRmNzMwOWI0ZjViYThhMjBmNjUxZjQ0YjRkNyIsInVzZXJfaWQiOjJ9.Fe5ocRRSEwtnxT7jMKRsEXsN_mzuy0lh_-HIn_hBixc"); 
       gettingData();
   }, [ws]);
 
